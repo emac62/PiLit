@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(33, 46, 30);
+
+}
+
+body {
+    font-family: Raleway;
+    color: rgb(33, 46, 30);
+    margin: 0;
+    padding-top: 70px;
+    background-color: beige;
+}
+
+.bg-steel {
+  background-color: rgba(33, 46, 30, 0.9);
+
+}
+
+.site-header .navbar-brand  {
+  color: #f2f2f2;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #f2f2f2;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: rgb(116, 61, 51);
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+.subject-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.subject-tutor {
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  margin-top: 4px;
+}
+
+h3 {
+  color: rgb(33, 46, 30);
+}
+
+p {
+  text-align: left;
+  margin-top: 2px;
+  font-size: 18px;
+}
+
+h3 > a {
+  color: inherit;
+}
+
+li > a {
+  color: inherit;
+}
+
+li >a:hover {
+  color: rgb(116, 61, 51);
+  text-decoration: none;
+}
+
+h3 > a:hover {
+  color: rgb(116, 61, 51);
+  text-decoration: none;
+}
+
+.intro {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(33, 46, 30);
+}
+
+.content-section {
+  background: #F1EDC2;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  color: #551F05;
+}
+
+#symbols-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  color: rgb(33, 46, 30);
+}
+
+#hook {
+  text-align: center;
+}
+
+
+.options-container {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-evenly;
+}
+
+.columns {
+  float: left;
+  width: 25%;
+  padding: 8px;
+  overflow: scroll;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: rgb(26, 35, 23);
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #F1EDC2;
+  font-size: 20px;
+}
+
+.button {
+  display: block; 
+  margin-right: auto; 
+  margin-left: auto;
+  background-color:rgba(33, 46, 30, 0.9);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+
+.button:hover {
+  background: rgb(116, 61, 51);
+  color:white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(33, 46, 30, 0.9);
+  color: #f2f2f2;
+  margin: auto;
+  height: 40px;
+}
